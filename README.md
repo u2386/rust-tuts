@@ -5,4 +5,4 @@
 ## TODO
 
 - [ ] Pub/Sub supported in KV server
-- [ ] LinkedList implemented
+- [x] LinkedList implemented
