@@ -1,0 +1,13 @@
+[package]
+name = "macro-tuts"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1" # proc-macro 的封装
+syn = { version = "1", features = ["extra-traits"] } # 用于解析 TokenStream，使用 extra-traits 可以用于 Debug
+
+[lib]
+proc-macro = true
